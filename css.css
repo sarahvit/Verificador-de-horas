@@ -36,7 +36,7 @@ div {
 #info {
     justify-content: center;
     display: flex;
-
+    color: #434343;
 
 }
 
@@ -55,7 +55,7 @@ footer {
 @media screen and (max-width: 500px) {
     section {
         width: 95%;
-
+        padding: 25px;
     
 
     }

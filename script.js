@@ -4,10 +4,10 @@ function carregar() {
     var img = document.getElementById('imagem')
     var data = new Date()
     var hora = data.getHours()
-    
+    var minutos = data.getMinutes()
 
-    
-    info.innerHTML = `Agora são ${hora} horas.`
+        
+    info.innerHTML = `Agora são ${hora}:${minutos}.`
 
     if (hora >= 0 && hora < 12) {
         //BOM DIA
